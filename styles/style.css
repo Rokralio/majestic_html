@@ -1,0 +1,50 @@
+/*
+  # = id
+  . = class
+  * = the whole file
+*/
+
+*{
+  font-size: 30px; /* tamaño de letra */
+  background-color:wheat; /* color del fondo */
+}
+
+h1{
+  color: brown; /* color de letra */
+  font-size: 100px;
+}
+
+#bird_pink{
+  background-color: pink;
+}
+
+#bug_red{
+  background-color:red;
+}
+
+#plant_green{
+  background-color:green;
+}
+
+table{
+  background-color: tomato;
+  border-collapse: collapse; /* para que es esta propiedad. */
+}
+
+th{
+  font-weight: bold; /* Negrita */
+  background-color:white;
+}
+
+thead{
+  border-bottom: solid 5px black;
+}
+
+th, td{
+  border: solid 1px black;
+}
+
+/* tr:nth-child(odd){ */
+table tr{
+  background: aqua; /* no se muestra */
+}
