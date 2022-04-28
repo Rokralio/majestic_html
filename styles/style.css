@@ -4,47 +4,50 @@
   * = the whole file
 */
 
-*{
+* {
   font-size: 30px; /* tamaño de letra */
-  background-color:wheat; /* color del fondo */
+  font-family: 'roboto', sans-serif; /* Estilo de letra */
 }
 
-h1{
+body {
+  background-color:wheat;
+}
+
+h1 {
   color: brown; /* color de letra */
   font-size: 100px;
 }
 
-#bird_pink{
+#bird_pink {
   background-color: pink;
 }
 
-#bug_red{
-  background-color:red;
+#bug_brown {
+  background-color:brown;
 }
 
-#plant_green{
+#plant_green {
   background-color:green;
 }
 
-table{
-  background-color: tomato;
+table {
+  background-color:beige;
   border-collapse: collapse; /* para que es esta propiedad. */
 }
 
-th{
+th {
   font-weight: bold; /* Negrita */
   background-color:white;
 }
 
-thead{
+thead {
   border-bottom: solid 5px black;
 }
 
-th, td{
-  border: solid 1px black;
+th, td {
+  border: solid 1px black; /* el grosos de la linea de los bordes */
 }
 
-/* tr:nth-child(odd){ */
-table tr{
+tr:nth-child(odd) {
   background: aqua; /* no se muestra */
 }
