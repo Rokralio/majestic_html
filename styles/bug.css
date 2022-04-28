@@ -6,3 +6,22 @@
 body {
   background-color: brown;
 }
+
+h3{
+  text-align: center;
+}
+
+section{
+  display: flex;
+}
+
+article{
+  border: 1px solid black;
+  padding: 0.5%;
+  margin: 2%;
+  background-color: wheat;
+}
+
+figure{
+  text-align: center;
+}

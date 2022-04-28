@@ -9,6 +9,10 @@
   font-family: 'roboto', sans-serif; /* Estilo de letra */
 }
 
+ul {
+  list-style:inside
+}
+
 body {
   background-color:wheat;
 }
@@ -31,7 +35,7 @@ h1 {
 }
 
 table {
-  background-color:beige;
+  background-color:indianred;
   border-collapse: collapse; /* para que es esta propiedad. */
 }
 
@@ -50,4 +54,15 @@ th, td {
 
 tr:nth-child(odd) {
   background: aqua; /* no se muestra */
+}
+
+.axies_main {
+  display: flex;
+}
+
+.axies {
+  border: 1px solid black;
+  max-width: 580px;
+  padding: 0.5%;
+  margin: 1%;
 }
