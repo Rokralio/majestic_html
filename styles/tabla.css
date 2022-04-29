@@ -1,0 +1,44 @@
+* {
+  font-size: 60px; /* tamaño de letra */
+  font-family: 'roboto', sans-serif; /* Estilo de letra */
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+h1{
+  text-align: center;
+}
+
+table {
+  background-color: indianred;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: bold; /* Negrita */
+  background-color: white;
+}
+
+thead {
+  border-bottom: solid 5px black;
+}
+
+th, td {
+  border: solid 1px black; /* el grosos de la linea de los bordes */
+}
+
+tr:nth-child(odd) {
+  background: aqua;
+}
+
+#tabla{
+  display: flex;
+  justify-content: center;
+}
+
+#back{
+  display: flex;
+  justify-content: center;
+}

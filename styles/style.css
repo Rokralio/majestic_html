@@ -10,59 +10,55 @@
 }
 
 ul {
-  list-style:inside
+  list-style: inside
 }
 
 body {
-  background-color:wheat;
+  background-color: wheat;
 }
 
 h1 {
+  text-align: center;
   color: brown; /* color de letra */
   font-size: 100px;
 }
 
-#bird_pink {
+#bird {
+  color: #fdfdfd;
+  padding: 1rem 0;
   background-color: pink;
+  margin: 0;
 }
 
-#bug_brown {
-  background-color:brown;
+#bug {
+  color: #fdfdfd;
+  padding: 1rem 0;
+  background-color: brown;
+  margin: 0;
 }
 
-#plant_green {
-  background-color:green;
-}
-
-table {
-  background-color:indianred;
-  border-collapse: collapse; /* para que es esta propiedad. */
-}
-
-th {
-  font-weight: bold; /* Negrita */
-  background-color:white;
-}
-
-thead {
-  border-bottom: solid 5px black;
-}
-
-th, td {
-  border: solid 1px black; /* el grosos de la linea de los bordes */
-}
-
-tr:nth-child(odd) {
-  background: aqua; /* no se muestra */
+#plant {
+  color: #fdfdfd;
+  padding: 1rem 0;
+  background-color: green;
+  margin: 0;
 }
 
 .axies_main {
+  text-align: center;
   display: flex;
 }
 
 .axies {
   border: 1px solid black;
   max-width: 580px;
-  padding: 0.5%;
+  padding: 0 0.5%;
   margin: 1%;
+  background-color: #fdfdfd;
+}
+
+.video_origin {
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }

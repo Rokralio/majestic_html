@@ -2,6 +2,30 @@
   font-family: 'roboto', sans-serif;
   font-size: 30px;
 }
+
+h1{
+  font-size: 50px;
+}
+
 body{
   background-color: pink;
+}
+
+h3{
+  text-align: center;
+}
+
+section{
+  display: flex;
+}
+
+article{
+  border: 1px solid black;
+  padding: 0.1%;
+  margin: 0.5%;
+  background-color: wheat;
+}
+
+figure{
+  text-align: center;
 }
